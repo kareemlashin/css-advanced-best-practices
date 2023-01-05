@@ -1,0 +1,89 @@
+/*=============================================
+=                   BEM                       =
+=============================================*/
+.block {
+}
+.block__element {
+}
+.block--modifier {
+}
+
+/*============  End of BEM      =============*/
+
+/**
+*
+* ooCss
+*
+*/
+.box {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+.elevated {
+  border: 1px solid #ccc;
+  box-shadow: 1px 2px 5px #ccc;
+  border-radius: 5px;
+}
+/* maintainable CSS declarations */
+.declaration {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  /* Box-model */
+  display: block;
+  float: right;
+  width: 100px;
+  height: 100px;
+  /* Typography */
+  font: normal 16px Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  /* Visual */
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+/*=============================================
+  =                   SMACSS                    =
+  =============================================*/
+/* _Base */
+/*  _State */
+/*  _Module */
+/* _Layout */
+/* _Theme */
+/*============  End of SMACSS   =============*/
+
+/*=============================================
+=        RSCSS - Reasonable System for CSS Stylesheet Structure =
+=============================================*/
+/* Variants */
+/* Helps */
+/*============  End of RSCSS - Reasonable System for CSS Stylesheet Structure  =============*/
+
+/*=============================================
+  =                   ITCSS                    =
+  =============================================*/
+/* Settings  */
+/* Elements   */
+/* Settings  */
+/*============  End of ITCSS   =============*/
+
+
+/**
+*
+* styles/
+├── layout/        // classes for layout patterns
+├── utilities/     // utility classes
+├── _global.scss   // global styles targeting HTML tags
+├── _reset.scss    // CSS reset
+├── _tokens.scss   // design tokens
+└── index.scss
+*
+*/
